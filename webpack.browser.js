@@ -107,7 +107,7 @@ const config = {
       },
       remoteType: "module",
       remotes: {
-        todos: "http://localhost:3001/client/remoteEntry.js",
+        todo_list: "http://localhost:3001/client/remoteEntry.js",
       },
       exposes: {},
       shared: {

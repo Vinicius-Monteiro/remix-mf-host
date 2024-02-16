@@ -102,7 +102,7 @@ const config = {
         filename: "remoteEntry.js",
         remoteType: "script",
         remotes: {
-          todos: "todos@http://localhost:3001/server/remoteEntry.js",
+          todo_list: "todo_list@http://localhost:3001/server/remoteEntry.js",
         },
         library: { type: isModule ? "module" : "commonjs-module" },
         exposes: {},

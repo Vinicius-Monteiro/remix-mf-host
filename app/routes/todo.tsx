@@ -1,7 +1,7 @@
 import { json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { Suspense, useState } from "react";
-import Todos from "todo/Todos";
+import Todos from "todo_list/TodoList";
 
 // // mock round-trip to get remote component bundle
 // const delayTimeMs = 2000;
